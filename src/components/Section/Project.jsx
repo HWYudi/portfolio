@@ -10,7 +10,7 @@ export default function Project() {
             my Recently <span className="text-[#5E3BEE]">Project</span>
           </h1>
         </div>
-        <div className="w-1/2 md:max-w-fit cursor-pointer hover:bg-[#394149] border border-[#394149] mt-4 md:mt-0 py-2 md:p-2 gap-2">
+        <div className="w-fit md:max-w-fit cursor-pointer hover:bg-[#394149] border border-[#394149] mt-4 md:mt-0 p-2 gap-2">
           <a href="https://github.com/HWYudi" rel="noreferrer" target="_blank">
             <div className="flex items-center justify-center gap-2">
 
