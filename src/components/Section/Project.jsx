@@ -10,8 +10,11 @@ export default function Project() {
             my Recently <span className="text-[#5E3BEE]">Project</span>
           </h1>
         </div>
-        <div className="max-w-fit cursor-pointer hover:bg-[#394149] md:w-fit border border-[#394149] mt-4 md:mt-0 p-2 flex items-center gap-2">
+        <div className="w-1/2 md:max-w-fit cursor-pointer hover:bg-[#394149] border border-[#394149] mt-4 md:mt-0 py-2 md:p-2 gap-2">
           <a href="https://github.com/HWYudi" rel="noreferrer" target="_blank">
+            <div className="flex items-center justify-center gap-2">
+
+
             <h1>Visit My GitHub</h1>
 
           <svg
@@ -35,6 +38,7 @@ export default function Project() {
               d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
             />
           </svg>
+          </div>
           </a>
         </div>
       </div>
