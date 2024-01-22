@@ -3,7 +3,7 @@ import React from "react";
 export default function Project() {
   return (
     <div className="min-h-screen px-6 md:px-12 bg-[#F5FCFF] flex flex-col gap-20 py-24 md:py-32 ">
-      <div className="flex flex-col md:flex-row justify-between md:items-center">
+      <div className="flex flex-col md:flex-row justify-between md:items-end">
         <div>
           <p className="font-semibold md:text-xl capitalize">Project</p>
           <h1 className="font-bold text-2xl md:text-4xl capitalize ">
