@@ -18,7 +18,7 @@ export default function Hero() {
               <h1 className="font-bold text-3xl md:text-4xl capitalize">
                 About <span className="text-[#5E3BEE]">Me!</span>
               </h1>
-              <p className="mt-4">
+              <p className="mt-4 capitalize">
                 Greetings! Allow me to introduce myself. My name is Hijriyanto
                 Wahyudi, but you can call me Yudi for short. I am a non-binary
                 individual, and my pronouns are he/him. At the age of 17, I am

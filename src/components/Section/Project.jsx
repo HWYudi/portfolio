@@ -10,40 +10,28 @@ export default function Project() {
             my Recently <span className="text-[#5E3BEE]">Project</span>
           </h1>
         </div>
-        <div className="w-fit md:max-w-fit cursor-pointer hover:bg-[#394149] border border-[#394149] mt-4 md:mt-0 p-2 gap-2">
+        <div className="rounded-md w-fit md:max-w-fit cursor-pointer bg-slate-600 hover:bg-[#394149] border border-[#394149] mt-4 md:mt-0 p-2 gap-2">
           <a href="https://github.com/HWYudi" rel="noreferrer" target="_blank">
             <div className="flex items-center justify-center gap-2">
-              <h1>Visit My GitHub</h1>
+              <h1 className="text-white">Visit My GitHub</h1>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
+                fill="white"
               >
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-up-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
               </svg>
             </div>
           </a>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div className="border border-yellow-500">
+        <div className="border border-[#5E3BEE] rounded-lg">
           <div>
-            <img src="./images/mockupweb.png" alt="" className="w-full" />
+            <img src="./images/mockupweb.png" alt="" className="w-full rounded-t-lg" />
           </div>
           <div className="p-4">
             <h1 className="my-2 ml-2 font-bold text-xl">Portfolio Website</h1>
@@ -126,9 +114,9 @@ export default function Project() {
           </div>
         </div>
 
-        <div className="border border-yellow-500">
+        <div className="border border-[#5E3BEE] rounded-lg">
           <div>
-            <img src="./images/mockupweb2.png" alt="" className="w-full" />
+            <img src="./images/mockupweb2.png" alt="" className="w-full rounded-t-lg" />
           </div>
           <div className="p-4">
             <h1 className="my-2 ml-2 font-bold text-xl">Anime Website</h1>
@@ -249,9 +237,9 @@ export default function Project() {
           </div>
         </div>
 
-        <div className="border border-yellow-500">
+        <div className="border border-[#5E3BEE] rounded-lg">
           <div>
-            <img src="./images/mockupweb3.png" alt="" className="w-full" />
+            <img src="./images/mockupweb3.png" alt="" className="w-full rounded-t-lg" />
           </div>
           <div className="p-4">
             <h1 className="my-2 ml-2 font-bold text-xl">Anime Mobile App</h1>
@@ -298,7 +286,7 @@ export default function Project() {
                   d="M27.35 80.52l10.68-68.44c.37-2.33 3.5-2.89 4.6-.8l11.48 21.48-26.76 47.76zm75.94 16.63L93.1 34.11c-.31-1.96-2.76-2.76-4.17-1.35L24.71 97.15l35.54 19.95a7.447 7.447 0 007.18 0l35.86-19.95zm-28.85-55L66.21 26.5c-.92-1.78-3.44-1.78-4.36 0L25.7 90.95l48.74-48.8z"
                 />
               </svg>
-                
+
             </div>
           </div>
         </div>

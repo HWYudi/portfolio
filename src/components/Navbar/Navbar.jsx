@@ -55,11 +55,11 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`md:flex  shadow-md md:shadow-none md:items-center  absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-200 ease-linear ${
-            open ? null : "top-[-490px]"
+          className={`md:flex  shadow-md md:shadow-none md:items-center  absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 duration-[400ms] ${
+            open ? "top-[55px]" : "top-[-490px]"
           }`}
         >
-          <div className="md:ml-8 text-xl md:my-0 my-4 flex flex-col md:flex-row md:gap-5">
+          <div className="md:ml-8 text-xl mt-1 md:mt-0 mb-4 md:mb-0 flex flex-col md:flex-row md:gap-5 ">
             <a
               href="#home"
               className="text-gray-800 hover:text-[#5E3BEE] duration-500 "
