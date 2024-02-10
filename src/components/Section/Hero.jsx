@@ -99,7 +99,7 @@ export default function Hero() {
           </div>
           <div className="w-full md:w-1/2 flex items-center justify-center">
             <img
-              src="https://scontent.fbth1-1.fna.fbcdn.net/v/t39.30808-6/405170119_665175859128791_8197447080101270151_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGqrUCiAVjjOI2FHfW8pVi5a1fx89u2GNprV_Hz27YY2pF7pthLAvDHnMTCIvdznBxrCZSAqrK-R7X8jltMCoMi&_nc_ohc=mPBnk5urIkQAX_k97Um&_nc_zt=23&_nc_ht=scontent.fbth1-1.fna&oh=00_AfAFfkGAbVum4McEOx7lSBjjNtWAD5Q5ANgd5WvLje3GQg&oe=65AEA023"
+              src="./images/profile.jpg"
               alt=""
               className="max-w-full lg:w-1/2 rounded-full object-cover"
             />
