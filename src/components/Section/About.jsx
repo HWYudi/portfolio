@@ -20,8 +20,7 @@ export default function Hero() {
               </h1>
               <p className="mt-4 capitalize">
                 Greetings! Allow me to introduce myself. My name is Hijriyanto
-                Wahyudi, but you can call me Yudi for short. I am a non-binary
-                individual, and my pronouns are he/him. At the age of 17, I am
+                Wahyudi, but you can call me Yudi for short. my pronouns are he/him. At the age of 17, I am
                 from kepulauan riau indonesia As a passionate full stack web
                 developer and software engineer, I am enthusiastic about
                 crafting innovative digital solutions that cater to the evolving
